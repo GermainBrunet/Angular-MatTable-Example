@@ -18,7 +18,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
 	public Docket productApi() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
 				.apis(RequestHandlerSelectors
-				.basePackage("ca.gb.dechiffreur.controllers"))
+				.basePackage("ca.gb.example.controllers"))
 				// .paths(regex("/api*"))
 				.build();
 

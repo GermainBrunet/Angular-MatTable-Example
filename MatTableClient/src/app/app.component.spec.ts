@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'DechiffreurClient'`, () => {
+  it(`should have as title 'MatTableClient'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('DechiffreurClient');
+    expect(app.title).toEqual('MatTableClient');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('DechiffreurClient app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('MatTableClient app is running!');
   });
 });
