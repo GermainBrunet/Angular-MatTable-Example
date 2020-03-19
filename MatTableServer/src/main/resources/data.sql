@@ -1,0 +1,11 @@
+insert into sample (name, value) values ('name1', 'value1');
+insert into sample (name, value) values ('name2', 'value12');
+insert into sample (name, value) values ('name3', 'red');
+insert into sample (name, value) values ('name4', 'blue1');
+insert into sample (name, value) values ('name5', 'value15');
+insert into sample (name, value) values ('green', 'value16');
+insert into sample (name, value) values ('banana', 'value17');
+insert into sample (name, value) values ('name8', 'value18');
+insert into sample (name, value) values ('name9', 'blue2');
+insert into sample (name, value) values ('name10', 'value110');
+insert into sample (name, value) values ('apple', 'demo');
